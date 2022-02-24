@@ -1,12 +1,13 @@
-import logo from './logo.svg';
 import Grid from './Grid/Grid';
+import Header from './Header/Header'
 import './App.scss';
 
-function App() {
+const App = () => {
   return (
-    <>
+    <main className="App">
+    <Header />
     <Grid />
-    </>
+    </main>
   );
 }
 

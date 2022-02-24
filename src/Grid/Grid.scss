@@ -1,0 +1,13 @@
+.grid-wrapper{
+  width: 90%;
+  margin: 0 auto;
+  padding: 5%;
+}
+
+.grid {
+  border: 1px solid mediumspringgreen;
+  height: 80vh;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
