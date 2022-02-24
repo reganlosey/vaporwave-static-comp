@@ -1,16 +1,23 @@
 import './Grid.scss'
 import Card from '../Card/Card'
+import images from '../images'
 
 
 
 const Grid = () => {
+  console.log(images)
+  const imgCards = images.map((img) => {
+    return (
+    <Card
+      key={Math.floor(Math.random() * Date.now())}
+      img={img}
+      />
+    )
+  })
   return (
     <section className="grid-wrapper">
       <div className="grid">
-      <Card></Card>
-      <Card></Card>
-      <Card></Card>
-      <Card></Card>
+      {imgCards}
       </div>
     </section>
   )
