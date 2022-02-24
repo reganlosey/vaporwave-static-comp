@@ -5,7 +5,6 @@ import images from '../images'
 
 
 const Grid = () => {
-  console.log(images)
   const imgCards = images.map((img) => {
     return (
     <Card
