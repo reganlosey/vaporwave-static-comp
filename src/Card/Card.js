@@ -6,13 +6,16 @@ const Card = ({ img }) => {
   return (
     <article className="card">
       <div className="card-header">
+        <div className="card-header-txt">
+        <h1>Views</h1>
+        <p>02</p>
+        </div>
         <img className="card-header-img" src={img} />
-        <h1>Views : 2</h1>
-        Card header
-        shares: 2
       </div>
+      <div className="card-main-text">
 
 
+      </div>
     </article>
   )
 
