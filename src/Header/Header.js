@@ -5,10 +5,13 @@ import './Header.scss';
 const Header = () => {
   return (
     <header className="header">
-      <h1>Header!</h1>
+      <div className="header-text">
+        <p className="selected">f l o a t |</p>
+        <p> w a t c h  |</p>
+        <p> r e m e m b e r</p>
+      </div>
     </header>
   )
-
 
 }
 
