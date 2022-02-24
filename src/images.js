@@ -3,7 +3,7 @@ const images = [
 
   "https://images.unsplash.com/photo-1552549505-e47bad1806d0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8dmFwb3J3YXZlfGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=900&q=60",
 
-  "https://images.unsplash.com/photo-1542325823-53124d9c5cbe?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjIyfHxwYXN0ZWx8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=900&q=60",
+  "https://images.unsplash.com/photo-1517479149777-5f3b1511d5ad?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjh8fHBhc3RlbCUyMGJhY2tncm91bmR8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=900&q=60",
 
   "https://images.unsplash.com/photo-1557389844-8de38aa63150?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTg4fHxhZXN0aGV0aWN8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=900&q=60",
 
