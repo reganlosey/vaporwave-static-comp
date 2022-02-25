@@ -17,6 +17,10 @@ const Card = ({ img }) => {
         <p>
           <a href="https://www.youtube.com/watch?v=-V9ku_9p3fo" target="_blank" rel="noreferrer" className="link">https://www.youtube.com/watch?v=-V9ku_9p3fo</a>
         </p>
+        <p>Playlist</p>
+        <p>Name of Playlist</p>
+        <p>Attachments</p>
+        <p>04</p>
       </div>
     </article >
   )

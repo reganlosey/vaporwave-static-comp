@@ -1,18 +1,19 @@
-.header{
+.header {
   height: 10vh;
   background-color: #FDCEB9;
   display: flex;
   flex-flow: column wrap;
-  justify-content:flex-end;
-  p{
+  justify-content: flex-end;
+
+  p {
     padding: 10px;
   }
 }
 
-.header-text{
+.header-text {
   display: flex;
   flex-flow: row wrap;
-  height:fit-content;
+  height: fit-content;
   font-size: 2em;
   letter-spacing: 5px;
 }
