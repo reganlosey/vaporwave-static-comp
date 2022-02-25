@@ -1,9 +1,10 @@
 .header {
   height: 15vh;
-  background-color: #FDCEB9;
+  background-color: #6C7599;
   display: flex;
-  flex-flow: column wrap;
-  justify-content: flex-end;
+  flex-flow: row wrap;
+  justify-content:space-between;
+  align-items:flex-end;
 
   p {
     padding: 10px;
@@ -11,8 +12,7 @@
 }
 
 .header-text {
-  border: 1px solid red;
-  width: 50%;
+  width: fit-content;
   margin: 1% 2%;
   display: flex;
   flex-flow: row wrap;
@@ -22,34 +22,43 @@
   color: black;
 
   :nth-child(2) {
-    color: #a100c9;
+    color: white;
     font-style:italic;
+  }
+  .share-icon{
+    color: white;
   }
   .icon{
     width: .7em;
   }
 }
-
 .header-text-right{
-  border: 1px solid black;
-  max-height: 100%;
-  // width:fit-content;
-  display: flex;
+  display:flex;
   flex-flow: column wrap;
+  align-items: flex-end;
+  width: fit-content;
+  margin-right: 1%;
+}
+
+.admin, .site-logo{
+  max-width: 100%;
+  display:flex;
+  flex-flow: row wrap;
+  height: fit-content;
   align-items:center;
-  justify-content:center;
-  :nth-child(3){
-    font-size: .5rem;
+  .admin-icon{
+    width: 1.45rem;
   }
-  :nth-child(4){
-    font-size: 3rem;
+  .admin-text{
+    font-size: .85rem;
   }
 }
 
-.admin-icon{
-  width: 2rem;
+.site-text{
+  font-size:3rem;
+  color:#bc91ee;
 }
 
-.sea-icon{
+.site-icon{
   width: 3em;
 }

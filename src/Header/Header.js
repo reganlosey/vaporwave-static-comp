@@ -11,7 +11,7 @@ const Header = () => {
   return (
     <header className="header">
       <div className="header-text">
-        <img className="share-icon icon" src={shareIcon} alt="share icon"/>
+        <img className="share-icon icon" src={shareIcon} alt="share icon" />
         <p>Shares</p>
         <img className="list-icon icon" src={listIcon} alt="3 bullet point list icon" />
         <p>Playlists</p>
@@ -19,10 +19,14 @@ const Header = () => {
         <p>Personal Videos</p>
       </div>
       <div className="header-text-right">
+        <div className="admin">
           <img className="admin-icon" src={adminIcon} alt="silhouette of head and shoulders" />
-          <img className="sea-icon" src={seaIcon} alt="outline of sun over the ocean" />
-          <p>Admin Username</p>
-          <p>Aesthetic!</p>
+          <p className="admin-text">Admin Username</p>
+        </div>
+        <div className="site-logo">
+          <p className="site-text">Vaporwave</p>
+          <img className="site-icon" src={seaIcon} alt="outline of sun over the ocean" />
+        </div>
       </div>
     </header>
   )
