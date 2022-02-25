@@ -16,4 +16,9 @@
   height: fit-content;
   font-size: 2em;
   letter-spacing: 5px;
+  color: black;
+
+  :nth-child(1) {
+    color: white;
+  }
 }
