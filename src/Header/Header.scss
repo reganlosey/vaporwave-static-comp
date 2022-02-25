@@ -1,5 +1,5 @@
 .header {
-  height: 10vh;
+  height: 15vh;
   background-color: #FDCEB9;
   display: flex;
   flex-flow: column wrap;
@@ -11,14 +11,45 @@
 }
 
 .header-text {
+  border: 1px solid red;
+  width: 50%;
+  margin: 1% 2%;
   display: flex;
   flex-flow: row wrap;
   height: fit-content;
-  font-size: 2em;
+  font-size: 1.5em;
   letter-spacing: 5px;
   color: black;
 
-  :nth-child(1) {
-    color: white;
+  :nth-child(2) {
+    color: #a100c9;
+    font-style:italic;
   }
+  .icon{
+    width: .7em;
+  }
+}
+
+.header-text-right{
+  border: 1px solid black;
+  max-height: 100%;
+  // width:fit-content;
+  display: flex;
+  flex-flow: column wrap;
+  align-items:center;
+  justify-content:center;
+  :nth-child(3){
+    font-size: .5rem;
+  }
+  :nth-child(4){
+    font-size: 3rem;
+  }
+}
+
+.admin-icon{
+  width: 2rem;
+}
+
+.sea-icon{
+  width: 3em;
 }

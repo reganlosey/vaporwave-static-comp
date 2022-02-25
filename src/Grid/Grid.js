@@ -1,7 +1,7 @@
 import './Grid.scss'
 import Card from '../Card/Card'
 import images from '../images'
-import shareArrow from '../share_arrow.png'
+import shareArrow from '../assets/share_arrow.png'
 
 
 
