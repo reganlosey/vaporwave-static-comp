@@ -1,13 +1,15 @@
 import './Card.scss'
 
 
-const Card = ({ img }) => {
+
+const Card = ({ img, arrow }) => {
   return (
     <article className="card">
       <div className="card-header">
         <div className="card-header-txt">
           <h1>Views</h1>
           <p>02</p>
+          <img className="share-arrow" src={arrow} alt="share arrow"/>
         </div>
         <img className="card-header-img" src={img} />
       </div>

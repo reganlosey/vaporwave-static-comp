@@ -1,6 +1,7 @@
 import './Grid.scss'
 import Card from '../Card/Card'
 import images from '../images'
+import shareArrow from '../share_arrow.png'
 
 
 
@@ -10,6 +11,7 @@ const Grid = () => {
     <Card
       key={Math.floor(Math.random() * Date.now())}
       img={img}
+      arrow={shareArrow}
       />
     )
   })
