@@ -1,10 +1,9 @@
 .header {
-  height: 15vh;
   background-color: #6C7599;
   display: flex;
   flex-flow: row wrap;
-  justify-content:space-between;
-  align-items:flex-end;
+  justify-content: space-between;
+  align-items: flex-end;
 
   p {
     padding: 10px;
@@ -12,20 +11,19 @@
 }
 
 .header-text {
-  // width: fit-content;
   margin: 1% 2%;
   display: flex;
   flex-flow: row wrap;
   height: 50%;
-  align-content:flex-end;
-  align-items:baseline;
+  align-content: flex-end;
+  align-items: baseline;
   font-size: 1.15em;
   color: black;
 
 
   :nth-child(2) {
     color: #efc385;
-    font-style:italic;
+    font-style: italic;
   }
 
   .icon {
@@ -34,36 +32,60 @@
   }
 
 }
-.header-text-right{
-  display:flex;
+
+.header-text-right {
+  display: flex;
   flex-flow: column wrap;
   align-items: flex-end;
   width: fit-content;
   margin: .5% 2%;
 }
 
-.admin, .site-logo{
+.admin,
+.site-logo {
   max-width: 100%;
-  display:flex;
+  display: flex;
   flex-flow: row wrap;
   height: fit-content;
-  align-items:center;
-  .admin-icon{
+  align-items: center;
+
+  .admin-icon {
     width: 1.45rem;
-    filter:invert(100%);
+    filter: invert(100%);
   }
-  .admin-text{
+
+  .admin-text {
     font-size: .85rem;
     color: #8bfad5;
   }
 }
 
-.site-text{
-  font-size:2.25rem;
-  color:#efc385;
+.site-text {
+  font-size: 2.25rem;
+  color: #efc385;
 }
 
-.site-icon{
+.site-icon {
   width: 2.5em;
   margin-bottom: 10px;
+}
+
+@media screen and (max-width: 737px){
+  .header {
+    font-size: 1rem;
+    flex-flow: column-reverse wrap;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+  }
+
+  .header-text{
+    font-size: .95rem;
+    width: 100%;
+    flex-wrap:nowrap;
+  }
+
+  .header-text-right{
+    font-size: .9rem;
+    align-items: flex-start;
+  }
 }
