@@ -12,25 +12,27 @@
 }
 
 .header-text {
-  width: fit-content;
+  // width: fit-content;
   margin: 1% 2%;
   display: flex;
   flex-flow: row wrap;
-  height: fit-content;
+  height: 50%;
+  align-content:flex-end;
+  align-items:baseline;
   font-size: 1.5em;
-  letter-spacing: 5px;
   color: black;
 
+
   :nth-child(2) {
-    color: white;
+    color: #efc385;
     font-style:italic;
   }
-  .share-icon{
-    color: white;
+
+  .icon {
+    width: .75em;
+    margin-left: 10px;
   }
-  .icon{
-    width: .7em;
-  }
+
 }
 .header-text-right{
   display:flex;
@@ -48,15 +50,17 @@
   align-items:center;
   .admin-icon{
     width: 1.45rem;
+    filter:invert(100%);
   }
   .admin-text{
     font-size: .85rem;
+    color: #8bfad5;
   }
 }
 
 .site-text{
   font-size:3rem;
-  color:#bc91ee;
+  color:#efc385;
 }
 
 .site-icon{
