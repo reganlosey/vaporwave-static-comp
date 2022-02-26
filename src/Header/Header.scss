@@ -4,6 +4,7 @@
   flex-flow: row wrap;
   justify-content: space-between;
   align-items: flex-end;
+  width:100%;
 
   p {
     padding: 10px;
@@ -80,12 +81,21 @@
 
   .header-text{
     font-size: .95rem;
-    width: 100%;
-    flex-wrap:nowrap;
+    max-width: 100%;
+    // flex-wrap:nowrap;
   }
 
   .header-text-right{
     font-size: .9rem;
     align-items: flex-start;
+  }
+
+  .site-text{
+    font-size: 1.25rem;
+  }
+
+  .site-icon{
+    width: 1.55rem;
+    margin-left: -5px;
   }
 }

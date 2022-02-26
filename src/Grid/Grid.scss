@@ -4,7 +4,9 @@
 
 .share-text{
   font-size: 2em;
-  margin: 1% 4%;
+  font-style:italic;
+  color: white;
+  margin: 2% 0 1% 2%;
 }
 
 .grid {
@@ -13,4 +15,11 @@
   flex-flow: row wrap;
   justify-content: space-around;
   align-content:space-between;
+}
+
+@media screen and (max-width: 737px){
+  .share-text{
+    text-align:center;
+  }
+
 }
