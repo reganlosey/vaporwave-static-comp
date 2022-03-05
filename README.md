@@ -16,11 +16,11 @@
 
 <br>
 
-### Site Overview:
+### This Redesign:
 <img width="800" src="https://user-images.githubusercontent.com/82983696/156897324-ab3e670b-52a5-4732-a4fe-7ffb42600b2a.png">
 <br>
 
-### My First Redesign:
+### My Previous Redesign:
 <img width ="800" src="https://user-images.githubusercontent.com/82983696/156897257-6e9f1f24-f41f-4322-8eb1-33243e6c2428.png">
 
 
